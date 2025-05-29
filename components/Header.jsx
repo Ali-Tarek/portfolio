@@ -38,7 +38,13 @@ const Header = () => {
               <div className="flex flex-col  items-center">
                 <button className="btn btn-lg btn-tertiary mb-16">
                   <div className="flex items-center gap-3">
-                    <span>Download CV</span>
+                    <a
+                      href="/assets/Ali-Tarek-Mohamed-CV.pdf" // Adjust the path if your CV is in a different location
+                      download
+                      className="cursor-pointer"
+                    >
+                      Download CV
+                    </a>
                     <MdFileDownload className="text-xl" />
                   </div>
                 </button>
