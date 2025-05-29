@@ -25,7 +25,7 @@ const About = () => {
           ease: "easeIn",
         },
       }}
-      className="h-screen flex items-center"
+      className="min-h-screen flex items-center py-24 xl:py-0"
     >
       <div className="container mx-auto px-0">
         <div className="flex flex-col xl:flex-row items-center gap-24 w-full h-[680px]">
@@ -46,7 +46,7 @@ const About = () => {
             </div>
           </div>
           <ScrollArea className="w-full h-[680px]">
-            <div>
+            <div className="">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-2 h-2 bg-accent rounded-full"></div>
                 <p>About me</p>

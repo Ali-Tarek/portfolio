@@ -18,6 +18,7 @@ import {
   firstName,
   briefDescription,
 } from "@/lib/constants";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 const Home = () => {
   return (
@@ -31,10 +32,10 @@ const Home = () => {
           ease: "easeOut",
         },
       }}
-      className="flex items-center h-screen"
+      className="flex items-center min-h-screen py-24 xl:py-0"
     >
       <Pattern />
-      <div className="flex flex-col xl:flex-row w-full items-center justify-between">
+      <div className="flex flex-col xl:flex-row w-full items-center justify-between ">
         {/* Avatar Section - Appears first on mobile */}
         <div className="flex-1 relative z-20 w-full max-w-[180px] sm:max-w-[240px] md:max-w-[300px] xl:max-w-full xl:order-2 mb-8 xl:mb-0">
           {/* Show Blob on all screen sizes */}
@@ -57,8 +58,8 @@ const Home = () => {
         </div>
 
         {/* Text Content - Appears second on mobile */}
-        <div className="w-full xl:w-[550px] flex flex-col items-center xl:items-start text-center xl:text-left xl:order-1">
-          <h1 className="h1 flex-1 mb-[28px]">
+        <div className="w-full  xl:w-[550px] flex flex-col items-center xl:items-start text-center xl:text-left xl:order-1">
+          <h1 className="h1 flex-1 my-8 md:mb-[28px]">
             Hi! I'm {firstName},
             <br />
             <TypeAnimation
@@ -70,10 +71,10 @@ const Home = () => {
               cursor={false}
             />
           </h1>
-          <p className="max-w-[500px] mb-[44px] px-2 sm:px-0">
+          <p className="max-w-[500px] mb-8 md:mb-[44px] px-2 sm:px-0">
             {briefDescription}
           </p>
-          <button className="btn btn-lg btn-accent mb-16">
+          <button className="btn btn-lg btn-accent mb-12 xl:mb-16">
             <div className="flex items-center gap-2">
               <Link href="/contact">Let's work together.</Link>
               <MdArrowOutward className="text-xl" />

@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${sometypeMono.variable} antialiased overflow-hidden relative`}
+        className={`${sometypeMono.variable} antialiased h-screen  overflow-x-hidden relative`}
       >
         <Gradient />
         <RectangleTransition />
@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
             <div className="hidden 2xl:flex w-[285px] h-screen bg-secondary">
               <MainNav />
             </div>
-            <div className="w-full max-w-[1130px] px-15px mx-auto">
+            <div className="w-full max-w-[1130px]  px-15px mx-auto">
               <Header />
               <div>{children}</div>
             </div>

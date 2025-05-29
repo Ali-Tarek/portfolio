@@ -22,9 +22,9 @@ const Services = () => {
           ease: "easeIn",
         },
       }}
-      className="h-screen flex items-center"
+      className="min-h-screen flex items-center py-24 xl:py-0 "
     >
-      <div className="container mx-auto w-full flex flex-col gap-16">
+      <div className="container mx-auto w-full h-full flex flex-col gap-16">
         {/* text */}
         <div className="flex flex-col xl:flex-row justify-between items-start xl:items-center gap-8">
           <h2 className="h2 max-w-[480px] text-left xl:mb-0">
