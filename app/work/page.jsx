@@ -101,17 +101,17 @@ const work = () => {
                                 <div className="flex sm:flex-row gap-4 items-start mb-12 xl:mb-0">
                                   {project.link && (
                                     <Link href={project.link} target="_blank">
-                                      <button className="btn btn-sm btn-accent flex gap-2">
+                                      <button className="btn btn-accent px-6">
                                         <MdArrowOutward className="text-lg" />
-                                        <span>Live Project</span>
+                                        {/* <span>Live Project</span> */}
                                       </button>
                                     </Link>
                                   )}{" "}
                                   {project.github && (
                                     <Link href={project.github} target="_blank">
-                                      <button className="btn btn-sm btn-white flex gap-2">
+                                      <button className="btn btn-white px-6">
                                         <FaGithub className="text-lg" />
-                                        <span>Github Repo</span>
+                                        {/* <span>Github Repo</span> */}
                                       </button>
                                     </Link>
                                   )}
