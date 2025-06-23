@@ -1,10 +1,14 @@
 # Portfolio
 
-A modern, full-stack developer portfolio built with Next.js, React, and Tailwind CSS. Showcases my skills, experience, and projects with a clean, and interactive UI.
+A modern, full-stack developer portfolio built with Next.js, React, and Tailwind CSS. Showcases my skills, experience, and projects with a clean and interactive UI.
 
 ---
 
 ## Demo
+
+
+https://github.com/user-attachments/assets/43969752-b6cf-4323-8a8a-7814f4e45205
+
 
 ---
 
