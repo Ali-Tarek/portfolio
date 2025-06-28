@@ -219,6 +219,7 @@ export const projects = [
     github: "https://github.com/Ali-Tarek/portfolio",
     tech: [
       { icon: React.createElement(RiNextjsFill), name: "NextJS" },
+      { icon: React.createElement(SiTypescript), name: "TypeScript" },
       { icon: React.createElement(RiTailwindCssFill), name: "Tailwind CSS" },
       { icon: React.createElement(TbBrandFramerMotion), name: "FramerMotion" },
       { icon: React.createElement(SiSwiper), name: "Swiper" },

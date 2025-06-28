@@ -6,9 +6,7 @@ A modern, full-stack developer portfolio built with Next.js, React, and Tailwind
 
 ## Demo
 
-
 https://github.com/user-attachments/assets/43969752-b6cf-4323-8a8a-7814f4e45205
-
 
 ---
 
@@ -110,7 +108,8 @@ EMAIL_PASS=your-app-password
 ## Tech Stack
 
 - **Framework:** [Next.js](https://nextjs.org/)
-- **UI:** [React](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/), [Framer Motion](https://www.framer.com/motion/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **UI:** [Tailwind CSS](https://tailwindcss.com/), [Framer Motion](https://www.framer.com/motion/)
 - **Components:** [Radix UI](https://www.radix-ui.com/), custom UI primitives
 - **Email:** [Nodemailer](https://nodemailer.com/)
 - **Icons:** [React Icons](https://react-icons.github.io/react-icons/)
