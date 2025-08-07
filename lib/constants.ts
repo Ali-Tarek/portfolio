@@ -34,6 +34,11 @@ import {
   SiPostman,
   SiShadcnui,
   SiSupabase,
+  SiDjango,
+  SiFlutter,
+  SiHuggingface,
+  SiSelenium,
+  SiFigma,
 } from "react-icons/si";
 
 import { TbBrandFramerMotion } from "react-icons/tb";
@@ -210,6 +215,24 @@ export const services = [
 export const projects = [
   {
     id: 1,
+    category: "Full Stack",
+    title: "Problem Solving Assistant",
+    description:
+      "PSA helps programmers improve coding skills with AI solutions, debugging, learning roadmaps, and Codeforces-based progress tracking.",
+    image: "/assets/work/thumb9.png",
+    link: "https://github.com/user-attachments/assets/a6edbfbf-d0c1-4416-9f89-ada835bf28d3",
+    github: "https://github.com/orgs/PSA-Orgranization/repositories",
+    tech: [
+      { icon: React.createElement(RiNextjsFill), name: "NextJS" },
+      { icon: React.createElement(SiTypescript), name: "TypeScript" },
+      { icon: React.createElement(SiDjango), name: "Django" },
+      { icon: React.createElement(SiPostgresql), name: "PostgreSQL" },
+      { icon: React.createElement(SiMongodb), name: "MongoDB" },
+      { icon: React.createElement(SiFlutter), name: "Flutter" },
+    ],
+  },
+  {
+    id: 2,
     category: "Frontend",
     title: "Portfolio Website",
     description:
@@ -227,7 +250,7 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     category: "Frontend",
     title: "Airbnb Clone",
     description:
@@ -243,7 +266,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     category: "Frontend",
     title: "Bakery Website",
     description:
@@ -257,7 +280,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     category: "Full Stack",
     title: "Shopsphere",
     description:
@@ -275,7 +298,7 @@ export const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     category: "Full Stack",
     title: "Soundora",
     description:
@@ -292,7 +315,7 @@ export const projects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     category: "Data Structures and Algorithms",
     title: "Student Management System",
     description:
@@ -303,7 +326,7 @@ export const projects = [
     tech: [{ icon: React.createElement(SiCplusplus), name: "C++" }],
   },
   {
-    id: 7,
+    id: 8,
     category: "Backend",
     title: "E-Commerce Orders & Notifications API",
     description:
@@ -318,7 +341,7 @@ export const projects = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     category: "Full Stack",
     title: "InstaChat",
     description:
@@ -354,4 +377,4 @@ export const location = "Giza, Egypt";
 export const briefDescription = `Proficient in ReactJS/NextJS and ExpressJS. I bring creativity and precision to every project. Let's turn your ideas into captivating web realities!`;
 
 export const aboutParagraph =
-  "I'm a software engineer who graduated from Cairo University, with strong expertise in software development, web development, and building scalable, user-focused applications using technologies like MERN and advanced data structures. While experienced across the full stack web development, I'm especially passionate about backend engineering, specializing in backend systems and architecture. I have a strong knowledge of core concepts and am dedicated to delivering high-quality solutions through hands-on projects and coding competitions.";
+  "I'm a software engineer and Cairo University graduate with a strong foundation in software and web development. I specialize in building scalable, efficient full-stack applications using the MERN stack, with a particular passion for backend engineering and system architecture. My experience spans both frontend and backend development, including designing responsive UIs with React, implementing secure REST APIs with Express, and creating normalized, well-structured databases. I'm quick to learn new technologies, have a solid grasp of advanced data structures and core CS concepts, and consistently deliver high-quality solutions through hands-on projects and coding competitions.";

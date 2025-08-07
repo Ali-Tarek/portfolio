@@ -113,6 +113,5 @@ EMAIL_PASS=your-app-password
 - **Components:** [Radix UI](https://www.radix-ui.com/), custom UI primitives
 - **Email:** [Nodemailer](https://nodemailer.com/)
 - **Icons:** [React Icons](https://react-icons.github.io/react-icons/)
-- **Other:** [Swiper](https://swiperjs.com/) (carousel), [clsx](https://github.com/lukeed/clsx) (conditional classes)
 
 ---
