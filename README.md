@@ -12,12 +12,19 @@ https://github.com/user-attachments/assets/43969752-b6cf-4323-8a8a-7814f4e45205
 
 ## Table of Contents
 
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Configuration](#configuration)
-- [Available Scripts](#available-scripts)
-- [Tech Stack](#tech-stack)
+- [Portfolio](#portfolio)
+  - [Demo](#demo)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Running Locally](#running-locally)
+  - [Project Structure](#project-structure)
+  - [Configuration](#configuration)
+    - [Environment Variables](#environment-variables)
+  - [Available Scripts](#available-scripts)
+  - [Tech Stack](#tech-stack)
 
 ---
 
